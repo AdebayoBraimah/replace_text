@@ -1,6 +1,7 @@
 # replace_text
 usage: reg_ex_sub.py [-h] -f FILE -o FILE -p STR -r STR or FILE
 
+```
 Performs regular expression substition via pattern searching and matching. The
 text is then replaced with input either an input string, or strings read from
 an existing file. The command line options specified here are repeatable, and
@@ -22,3 +23,4 @@ Required arguments:
   -r STR or FILE, --replace STR or FILE
                         String or file containing strings used to replace
                         matched pattern in the input file.
+```
